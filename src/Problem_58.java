@@ -1,4 +1,4 @@
-public class Problem_58_1 {
+public class Problem_58 {
     public static void main(String[] args) {
         String s1 = "Hello World";
         String s2 = "   fly me   to   the moon  ";
