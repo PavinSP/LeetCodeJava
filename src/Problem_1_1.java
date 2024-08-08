@@ -1,6 +1,6 @@
 // Brute Force Solution
 import java.util.Arrays;
-public class _1Problem_1 {
+public class Problem_1_1 {
     public static void main(String[] args) {
         int[] nums1 = {2, 7, 11, 15};
         int target1 = 9;
