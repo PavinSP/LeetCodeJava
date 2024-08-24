@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class Problem_0137_2 {
     public static void main(String[] args) {
-        int[] nums1 = {2, 2, 3, 2};
-        int[] nums2 = {0, 1, 0, 1, 0, 1, 99};
+        int[] nums1 = {30000,500,100,30000,100,30000,100};
+        int[] nums2 = {0,1,0,1,0,1,99};
         System.out.println(singleNumber(nums1));
         System.out.println(singleNumber(nums2));
     }
@@ -18,7 +18,7 @@ public class Problem_0137_2 {
         }
         for (int i = 1; i < nums.length; i += 3) {
             if (nums[i] != nums[i - 1]) {
-                return nums[i];
+                return nums[i - 1];
             }
         }
         return -1;
