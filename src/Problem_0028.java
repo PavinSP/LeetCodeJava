@@ -1,4 +1,4 @@
-public class Problem_28 {
+public class Problem_0028 {
     public static void main(String[] args) {
         String haystack1 = "sadbutsad";
         String needle1 = "sad";

@@ -1,6 +1,6 @@
 // space and time complexity is of the order O(n);
 import java.util.*;
-public class Problem_136_1 {
+public class Problem_0136_1 {
     public static void main(String[] args) {
         int[] num1 = {2, 2, 1};
         int[] num2 = {4, 1, 2, 1, 2};

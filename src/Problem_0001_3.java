@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // One pass method
-public class Problem_1_3 {
+public class Problem_0001_3 {
     public static void main(String[] args) {
         int[] nums1 = {2, 7, 11, 15};
         int[] nums2 = {3, 2, 4};

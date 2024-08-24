@@ -1,5 +1,5 @@
 // Two pointer method (watch video for clear understanding)
-public class Problem_11 {
+public class Problem_0011 {
     public static void main(String[] args) {
         int[] height1 = {1, 8, 6, 2, 5, 4, 8, 3, 7};
         System.out.println(maxArea(height1));
