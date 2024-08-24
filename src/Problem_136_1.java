@@ -1,3 +1,4 @@
+// space and time complexity is of the order O(n);
 import java.util.*;
 public class Problem_136_1 {
     public static void main(String[] args) {
@@ -13,6 +14,7 @@ public class Problem_136_1 {
         for (int i : nums) {
             map.put(i, map.getOrDefault(i, 0) + 1);
         }
+        System.out.println(map);
         Set<Map.Entry<Integer, Integer>> values = map.entrySet();
         for (Map.Entry<Integer, Integer> val : values) {
             if (val.getValue() == 1) {
