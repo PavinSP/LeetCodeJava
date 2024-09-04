@@ -24,6 +24,6 @@ public class Problem_0001_3 {
             }
             map.put(nums[i], i);
         }
-        return new int[]{};
+        return null;
     }
 }

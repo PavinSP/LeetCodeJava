@@ -25,6 +25,6 @@ public class Problem_0001_2 {
                 return new int[]{i, map.get(difference)};
             }
         }
-        return new int[]{};
+        return null;
     }
 }
